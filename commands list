@@ -1,0 +1,15 @@
+sudo dnf -y install dnf-plugins-core
+sudo dnf config-manager \
+    --add-repo \
+    https://download.docker.com/linux/fedora/docker-ce.repo
+
+sudo dnf install docker-ce
+sudo systemctl start docker
+sudo docker run hello-world
+sudo docker pull selenium/hub:3.8.1
+sudo docker pull selenium/node-firefox-debug:3.8.1
+sudo docker run -d -e GRID_MAX_SESSION=150 -p 4444:4444 --name sel-hub selenium/hub:3.8.1
+for((i=0;i<10;i++)); do sudo docker run -d --link sel-hub:hub selenium/node-firefox-debug:3.8.1; done;
+
+sudo pip3 install selenium 
+python3 mult*.py
