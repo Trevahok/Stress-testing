@@ -3,15 +3,16 @@ import time
 from selenium.webdriver.common.keys import Keys
 import sqlite3 as sq
 from threading import Thread
+from multiprocessing import Process
 import logging
 def node(userdata):
     '''simulates a users sequence of actions'''
     user=artificial_user()
-    logdata={userdata[0]:dict()}
-    logdata[userdata[0]]['test at']=time.time()
-    logdata[userdata[0]]['login time']=user.login(userdata)
-    logdata[userdata[0]]['home page load time']=user.go_home()
-    # logdata[userdata[0]]['writing code test time']=user.write_code_test()
+    logdata={}
+    logdata['test at']=time.ctime()
+    logdata['login page load time']=user.login(userdata)
+    logdata['home page load time']=user.go_home()
+    # logdata['writing code test time']=user.write_code_test()
     user.logout()
     logging.info(str(logdata))
 
@@ -28,17 +29,19 @@ class artificial_user:
     tests=[]
     links=set()
     def __init__(self):
-        self.web = webdriver.Chrome('/Users/ssvighnesh/chromedriver')
-    # self.web = webdriver.Remote(command_executor='http://127.0.0.1:4444/wd/hub',desired_capabilities={'browserName':'firefox','javascriptEnabled': True})
+        #self.web = webdriver.Chrome('/Users/ssvighnesh/chromedriver')
+        self.web = webdriver.Remote(command_executor='http://127.0.0.1:4444/wd/hub',desired_capabilities={'browserName':'firefox','javascriptEnabled': True})
     def login(self,user):
-        start_time=time.time()
         self.user=user
+        start_time=time.time()
         self.web.get('http://ec2-52-66-12-101.ap-south-1.compute.amazonaws.com/student/login')
+        stop_time=time.time()
+        print('login page')
         username=self.web.find_element_by_xpath('//*[@id="email"]')
         username.send_keys(user[0]+Keys.TAB)
         password=self.web.find_element_by_xpath('//*[@id="password"]')
         password.send_keys(user[1]+Keys.ENTER)
-        return time.time() - start_time
+        return stop_time - start_time
     def get_links(self,page):
         '''Scrape all the links in the webpage'''
         self.web.get(page)
@@ -63,6 +66,7 @@ class artificial_user:
     def go_home(self):
         start_time=time.time()
         self.web.get('http://ec2-52-66-12-101.ap-south-1.compute.amazonaws.com/student/student-home-page/')
+        print('homepage')
         return time.time() - start_time
     def roam(self):
         '''Modify this to a specific users action sequence.'''
@@ -103,7 +107,7 @@ class artificial_user:
         var editor= ace.edit("editor");
         editor.setValue(" '''+code+''' ");
         '''
-        print(scr)
+
         self.web.execute_script(scr)
         run_code=self.web.find_element_by_id('run-code')
         run_code.click()
@@ -113,10 +117,12 @@ class artificial_user:
 
 
 logging.basicConfig(filename='logdata',level=logging.INFO,format='%(message)s')
+logging.info('#')
 if __name__ == '__main__':
     thread_list=[]
     #userlist=get_user_data()
-    for userdata in [('17dum'+str(i),'abc123') for i in range(1002,1005)]: #[('15bce2007','abc123')]:#[("17bcl1051","abc123"),("17bcl1050","abc123"),("17bcl1039","abc123"),("17bcl1030","abc123"),("17bcl1022","abc123"),("17bcl1018","abc123"),("17bcl1009","abc123")]:
+    n=int(input('enter the number of users:'))
+    for userdata in [('17dum'+str(i),'abc123') for i in range(1002,1002+n)]: #[('15bce2007','abc123')]:#[("17bcl1051","abc123"),("17bcl1050","abc123"),("17bcl1039","abc123"),("17bcl1030","abc123"),("17bcl1022","abc123"),("17bcl1018","abc123"),("17bcl1009","abc123")]:
   #userlist:    since other logins dont have code tests assigned
         print(userdata)
         t=Thread(target=node,args=[userdata])
