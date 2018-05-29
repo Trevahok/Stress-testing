@@ -8,20 +8,19 @@ import logging
 def node(userdata):
     '''simulates a users sequence of actions'''
     user=artificial_user()
-    logdata={}
-    logdata['test at']=time.ctime()
-    logdata['login page load time']=user.login(userdata)
-    logdata['home page load time']=user.go_home()
-    # logdata['writing code test time']=user.write_code_test()
+    logdata={userdata[0]:dict()}
+    logdata[userdata[0]]['test at']=time.ctime()
+    logdata[userdata[0]]['login page load time']=user.login(userdata)
+    logdata[userdata[0]]['home page load time']=user.go_home()
+    # logdata[userdata[0]]['writing code test time']=user.write_code_test()
     user.logout()
     logging.info(str(logdata))
 
 def get_user_data():
     '''Fetches username and password from the database and returns as a list of tuples.'''
-    conn=sq.connect('logindat.sqlite')
-    cur=conn.cursor()
-    userlist=cur.execute('select * from data')
-    return userlist.fetchall()
+    f=open('namelist','r')
+    userlist=list(map(lambda x:(x,'abc123'),f.read().split('\n')[:-1]))
+    return userlist
 
 class artificial_user:
     web ='a webdriver object will replace this text' 
@@ -120,10 +119,10 @@ logging.basicConfig(filename='logdata',level=logging.INFO,format='%(message)s')
 logging.info('#')
 if __name__ == '__main__':
     thread_list=[]
-    #userlist=get_user_data()
+    userlist=get_user_data()
     n=int(input('enter the number of users:'))
-    for userdata in [('17dum'+str(i),'abc123') for i in range(1002,1002+n)]: #[('15bce2007','abc123')]:#[("17bcl1051","abc123"),("17bcl1050","abc123"),("17bcl1039","abc123"),("17bcl1030","abc123"),("17bcl1022","abc123"),("17bcl1018","abc123"),("17bcl1009","abc123")]:
-  #userlist:    since other logins dont have code tests assigned
+    for userdata in userlist[:n]:
+
         print(userdata)
         t=Thread(target=node,args=[userdata])
         thread_list.append(t)
