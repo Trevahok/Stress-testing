@@ -1,6 +1,14 @@
 # web-testing
 This script tests a website's ability to accomodate the number of people - stress testing, by automating the users actions. 
 It can be run on a Selenium grid running on different docker containers. 
+# Setting Up:
+###  Using the commands given in the commands list file:
+- Install docker CE Engine
+- Run docker 
+- Pull selenium hub image
+- Pull selenium node image
+- Pip install selenium
+- Run the code 
 # multi_node_user_interaction.py
 - Before simulating a user, in the code:
 - Comment or uncomment the methods a user interacts in the Node.
