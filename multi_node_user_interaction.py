@@ -5,6 +5,7 @@ import sqlite3 as sq
 from threading import Thread
 from multiprocessing import Process
 import logging
+
 def node(userdata):
     '''simulates a users sequence of actions'''
     user=artificial_user()
@@ -12,7 +13,7 @@ def node(userdata):
     logdata[userdata[0]]['test at']=time.ctime()
     logdata[userdata[0]]['login page load time']=user.login(userdata)
     logdata[userdata[0]]['home page load time']=user.go_home()
-    # logdata[userdata[0]]['writing code test time']=user.write_code_test()
+    logdata[userdata[0]]['writing code test time']=user.write_code_test()
     user.logout()
     logging.info(str(logdata))
 
@@ -37,9 +38,11 @@ class artificial_user:
         stop_time=time.time()
         print('login page')
         username=self.web.find_element_by_xpath('//*[@id="email"]')
-        username.send_keys(user[0]+Keys.TAB)
+        username.send_keys(user[0])
         password=self.web.find_element_by_xpath('//*[@id="password"]')
-        password.send_keys(user[1]+Keys.ENTER)
+        password.send_keys(user[1])
+        log=self.web.find_element_by_name('student_login')
+        log.click()
         return stop_time - start_time
     def get_links(self,page):
         '''Scrape all the links in the webpage'''
@@ -56,11 +59,11 @@ class artificial_user:
            self.web.get(link)
     def logout(self):
         try:
-            test=self.web.find_element_by_link_text('Logout')
+            logout=self.web.find_element_by_link_text('Logout')
         except:
             self.web.close()
         else:
-            test.click()
+            logout.click()
             self.web.close()
     def go_home(self):
         start_time=time.time()
@@ -79,11 +82,11 @@ class artificial_user:
             print(E)
             self.web.close()
     def write_code_test(self):
-        start_time=time.time()
         self.web.get('http://ec2-52-66-12-101.ap-south-1.compute.amazonaws.com/code-test/list-code-test-sch/0/')
         self.tests=self.web.find_elements_by_link_text('Take this test')
-        test=self.tests[1]
+        test=self.tests[-1]
         test.click()
+        '''
         Input=self.web.find_element_by_id('input')
         Input.clear()
         Input.send_keys('input')
@@ -99,6 +102,7 @@ class artificial_user:
         Algo=self.web.find_element_by_id('algorithm')
         Algo.clear()
         Algo.send_keys('algorithm and pseudo')
+        '''
         self.web.find_element_by_xpath("//select[@id='ace-mode']/option[text()='C']").click()
 
         code=r'#include<stdio.h> \r\n void main(){int a=5; printf(\"%d\",a);}'
@@ -106,13 +110,17 @@ class artificial_user:
         var editor= ace.edit("editor");
         editor.setValue(" '''+code+''' ");
         '''
-
         self.web.execute_script(scr)
         run_code=self.web.find_element_by_id('run-code')
         run_code.click()
+        start_time=time.time()
+        while self.web.find_element_by_id('result').text == '':
+            time.sleep(0.001)
+        stop_time=time.time() 
         pause=self.web.find_element_by_id('pause-test')
         pause.click()
-        return time.time() - start_time
+        print('code test done ')
+        return stop_time - start_time
 
 
 logging.basicConfig(filename='logdata',level=logging.INFO,format='%(message)s')
