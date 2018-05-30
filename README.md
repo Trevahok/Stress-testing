@@ -6,7 +6,7 @@ It can be run on a Selenium grid running on different docker containers.
 - Plots the files with pyplot and saves the plot as .png file of the same file name 
 
 ### Usage:
-	```python
-		python3 plot.py your-filename-here
-	```
+```python
+python3 plot.py your-filename-here
+```
 
