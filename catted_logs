@@ -1,0 +1,516 @@
+#
+{'17dum1010': {'home page load time': 3.773489236831665, 'login page load time': 6.31442666053772, 'test at': 'Tue May 29 07:00:16 2018'}}
+{'17dum1006': {'home page load time': 3.30495285987854, 'login page load time': 9.93618631362915, 'test at': 'Tue May 29 07:00:15 2018'}}
+{'17dum1004': {'home page load time': 3.900407552719116, 'login page load time': 10.70634651184082, 'test at': 'Tue May 29 07:00:15 2018'}}
+{'17dum1007': {'home page load time': 5.108099460601807, 'login page load time': 9.710514545440674, 'test at': 'Tue May 29 07:00:16 2018'}}
+{'17dum1002': {'home page load time': 7.060946941375732, 'login page load time': 10.686530828475952, 'test at': 'Tue May 29 07:00:14 2018'}}
+{'17dum1001': {'home page load time': 4.071723937988281, 'login page load time': 11.824259757995605, 'test at': 'Tue May 29 07:00:16 2018'}}
+{'17dum1005': {'home page load time': 3.881999969482422, 'login page load time': 13.79122281074524, 'test at': 'Tue May 29 07:00:15 2018'}}
+{'17dum1009': {'home page load time': 4.17665958404541, 'login page load time': 12.002022981643677, 'test at': 'Tue May 29 07:00:16 2018'}}
+{'17dum1008': {'home page load time': 8.45002269744873, 'login page load time': 11.014716863632202, 'test at': 'Tue May 29 07:00:16 2018'}}
+{'17dum1003': {'home page load time': 9.67653751373291, 'login page load time': 9.976763725280762, 'test at': 'Tue May 29 07:00:16 2018'}}
+#
+{'17dum3536': {'test at': 'Tue May 29 16:28:08 2018', 'login page load time': 4.904674291610718, 'home page load time': 2.7006471157073975}}
+{'17dum3531': {'test at': 'Tue May 29 16:28:08 2018', 'login page load time': 5.2786805629730225, 'home page load time': 3.438081741333008}}
+{'17dum3537': {'test at': 'Tue May 29 16:28:08 2018', 'login page load time': 7.6209070682525635, 'home page load time': 5.395965576171875}}
+{'17dum3539': {'test at': 'Tue May 29 16:28:07 2018', 'login page load time': 8.538568019866943, 'home page load time': 5.128158330917358}}
+{'17dum3534': {'test at': 'Tue May 29 16:28:07 2018', 'login page load time': 10.628329992294312, 'home page load time': 3.0645833015441895}}
+{'17dum3532': {'test at': 'Tue May 29 16:28:08 2018', 'login page load time': 10.106563091278076, 'home page load time': 4.390368938446045}}
+{'17dum3535': {'test at': 'Tue May 29 16:28:08 2018', 'login page load time': 8.28295111656189, 'home page load time': 7.854037523269653}}
+{'17dum3538': {'test at': 'Tue May 29 16:28:08 2018', 'login page load time': 12.417359828948975, 'home page load time': 5.25549840927124}}
+{'17dum3533': {'test at': 'Tue May 29 16:28:07 2018', 'login page load time': 8.289467334747314, 'home page load time': 11.625663042068481}}
+{'17dum3540': {'test at': 'Tue May 29 16:28:08 2018', 'login page load time': 8.304758071899414, 'home page load time': 10.36060357093811}}
+#
+#
+#
+{'17dum1773': {'home page load time': 2.605829954147339, 'login page load time': 6.157750368118286, 'test at': 'Tue May 29 16:32:31 2018'}}
+{'17dum1772': {'home page load time': 3.4090442657470703, 'login page load time': 6.8072638511657715, 'test at': 'Tue May 29 16:32:30 2018'}}
+{'17dum1777': {'home page load time': 4.70715594291687, 'login page load time': 6.9721503257751465, 'test at': 'Tue May 29 16:32:29 2018'}}
+{'17dum1779': {'home page load time': 2.7629873752593994, 'login page load time': 9.654521465301514, 'test at': 'Tue May 29 16:32:31 2018'}}
+{'17dum1771': {'home page load time': 7.036407470703125, 'login page load time': 7.793002367019653, 'test at': 'Tue May 29 16:32:30 2018'}}
+{'17dum1775': {'home page load time': 5.068206787109375, 'login page load time': 12.667215347290039, 'test at': 'Tue May 29 16:32:28 2018'}}
+{'17dum1774': {'home page load time': 5.5049896240234375, 'login page load time': 9.83208966255188, 'test at': 'Tue May 29 16:32:31 2018'}}
+{'17dum1780': {'home page load time': 5.1645684242248535, 'login page load time': 12.32030725479126, 'test at': 'Tue May 29 16:32:31 2018'}}
+{'17dum1778': {'home page load time': 10.98087477684021, 'login page load time': 8.402754068374634, 'test at': 'Tue May 29 16:32:31 2018'}}
+{'17dum1776': {'home page load time': 10.192780494689941, 'login page load time': 10.756080865859985, 'test at': 'Tue May 29 16:32:29 2018'}}
+#
+{'17dum2550': {'test at': 'Tue May 29 16:46:09 2018', 'home page load time': 2.7124810218811035, 'login page load time': 5.969536542892456}}
+{'17dum2549': {'test at': 'Tue May 29 16:46:08 2018', 'home page load time': 4.904932975769043, 'login page load time': 6.561351537704468}}
+{'17dum2545': {'test at': 'Tue May 29 16:46:09 2018', 'home page load time': 4.214093446731567, 'login page load time': 6.491258382797241}}
+{'17dum2547': {'test at': 'Tue May 29 16:46:08 2018', 'home page load time': 4.105167865753174, 'login page load time': 8.846572399139404}}
+{'17dum2541': {'test at': 'Tue May 29 16:46:07 2018', 'home page load time': 4.864965915679932, 'login page load time': 10.737065553665161}}
+{'17dum2542': {'test at': 'Tue May 29 16:46:07 2018', 'home page load time': 7.743754148483276, 'login page load time': 7.6460044384002686}}
+{'17dum2546': {'test at': 'Tue May 29 16:46:09 2018', 'home page load time': 3.419341802597046, 'login page load time': 10.85274052619934}}
+{'17dum2548': {'test at': 'Tue May 29 16:46:09 2018', 'home page load time': 3.923877477645874, 'login page load time': 10.405733585357666}}
+{'17dum2544': {'test at': 'Tue May 29 16:46:09 2018', 'home page load time': 5.17687463760376, 'login page load time': 11.9443941116333}}
+{'17dum2543': {'test at': 'Tue May 29 16:46:09 2018', 'home page load time': 6.6274871826171875, 'login page load time': 13.895188331604004}}
+#
+{'17dum1833': {'login page load time': 9.83524489402771, 'home page load time': 4.002636671066284, 'test at': 'Tue May 29 16:37:21 2018'}}
+{'17dum1830': {'login page load time': 9.26522421836853, 'home page load time': 4.232775449752808, 'test at': 'Tue May 29 16:37:23 2018'}}
+{'17dum1829': {'login page load time': 10.425836324691772, 'home page load time': 3.851762294769287, 'test at': 'Tue May 29 16:37:23 2018'}}
+{'17dum1831': {'login page load time': 8.601280212402344, 'home page load time': 5.2346577644348145, 'test at': 'Tue May 29 16:37:23 2018'}}
+{'17dum1827': {'login page load time': 10.230151414871216, 'home page load time': 5.119007110595703, 'test at': 'Tue May 29 16:37:21 2018'}}
+{'17dum1834': {'login page load time': 11.472868204116821, 'home page load time': 5.31187105178833, 'test at': 'Tue May 29 16:37:22 2018'}}
+{'17dum1828': {'login page load time': 12.438090562820435, 'home page load time': 3.5276219844818115, 'test at': 'Tue May 29 16:37:23 2018'}}
+{'17dum1832': {'login page load time': 12.16459345817566, 'home page load time': 4.2689337730407715, 'test at': 'Tue May 29 16:37:23 2018'}}
+{'17dum1835': {'login page load time': 12.24994158744812, 'home page load time': 4.338058233261108, 'test at': 'Tue May 29 16:37:23 2018'}}
+{'17dum1826': {'login page load time': 12.599801063537598, 'home page load time': 4.512573719024658, 'test at': 'Tue May 29 16:37:23 2018'}}
+#
+{'17dum2597': {'test at': 'Tue May 29 07:00:17 2018', 'login page load time': 7.12662672996521, 'home page load time': 3.516597032546997}}
+{'17dum2598': {'test at': 'Tue May 29 07:00:18 2018', 'login page load time': 6.2760162353515625, 'home page load time': 4.057367324829102}}
+{'17dum2599': {'test at': 'Tue May 29 07:00:18 2018', 'login page load time': 5.680697917938232, 'home page load time': 5.25148868560791}}
+{'17dum2605': {'test at': 'Tue May 29 07:00:18 2018', 'login page load time': 7.953821659088135, 'home page load time': 4.750644207000732}}
+{'17dum2602': {'test at': 'Tue May 29 07:00:16 2018', 'login page load time': 10.459269523620605, 'home page load time': 4.461297988891602}}
+{'17dum2596': {'test at': 'Tue May 29 07:00:18 2018', 'login page load time': 9.47899603843689, 'home page load time': 4.669855356216431}}
+{'17dum2603': {'test at': 'Tue May 29 07:00:16 2018', 'login page load time': 12.365157842636108, 'home page load time': 4.722273588180542}}
+{'17dum2604': {'test at': 'Tue May 29 07:00:18 2018', 'login page load time': 10.660003185272217, 'home page load time': 4.106980323791504}}
+{'17dum2600': {'test at': 'Tue May 29 07:00:18 2018', 'login page load time': 13.600605487823486, 'home page load time': 4.416378021240234}}
+{'17dum2601': {'test at': 'Tue May 29 07:00:18 2018', 'login page load time': 14.988923788070679, 'home page load time': 3.707043170928955}}
+#
+{'17dum1116': {'test at': 'Tue May 29 06:59:45 2018', 'login page load time': 7.160043478012085, 'home page load time': 3.240502119064331}}
+{'17dum1118': {'test at': 'Tue May 29 06:59:46 2018', 'login page load time': 8.169646978378296, 'home page load time': 3.4368057250976562}}
+{'17dum1114': {'test at': 'Tue May 29 06:59:47 2018', 'login page load time': 7.58704400062561, 'home page load time': 5.075725793838501}}
+{'17dum1111': {'test at': 'Tue May 29 06:59:47 2018', 'login page load time': 7.241364002227783, 'home page load time': 7.072149038314819}}
+{'17dum1115': {'test at': 'Tue May 29 06:59:47 2018', 'login page load time': 10.85625696182251, 'home page load time': 3.9976723194122314}}
+{'17dum1120': {'test at': 'Tue May 29 06:59:45 2018', 'login page load time': 12.074340581893921, 'home page load time': 5.84368634223938}}
+{'17dum1112': {'test at': 'Tue May 29 06:59:47 2018', 'login page load time': 9.745329141616821, 'home page load time': 6.854392051696777}}
+{'17dum1113': {'test at': 'Tue May 29 06:59:47 2018', 'login page load time': 12.29936695098877, 'home page load time': 3.6413440704345703}}
+{'17dum1117': {'test at': 'Tue May 29 06:59:47 2018', 'login page load time': 12.926597595214844, 'home page load time': 5.548681974411011}}
+{'17dum1119': {'test at': 'Tue May 29 06:59:47 2018', 'login page load time': 7.088318586349487, 'home page load time': 18.099741220474243}}
+#
+#
+#
+#
+#
+#
+#
+{'17dum3592': {'home page load time': 4.040172100067139, 'login page load time': 7.057185649871826, 'test at': 'Tue May 29 16:31:25 2018'}}
+{'17dum3595': {'home page load time': 3.8372833728790283, 'login page load time': 7.880880117416382, 'test at': 'Tue May 29 16:31:25 2018'}}
+{'17dum3591': {'home page load time': 3.925733804702759, 'login page load time': 7.265724420547485, 'test at': 'Tue May 29 16:31:26 2018'}}
+{'17dum3588': {'home page load time': 4.445302248001099, 'login page load time': 7.429654836654663, 'test at': 'Tue May 29 16:31:26 2018'}}
+{'17dum3586': {'home page load time': 5.475301027297974, 'login page load time': 7.781316041946411, 'test at': 'Tue May 29 16:31:26 2018'}}
+{'17dum3589': {'home page load time': 5.625852823257446, 'login page load time': 9.46613097190857, 'test at': 'Tue May 29 16:31:24 2018'}}
+{'17dum3594': {'home page load time': 4.070945978164673, 'login page load time': 14.033089399337769, 'test at': 'Tue May 29 16:31:26 2018'}}
+{'17dum3590': {'home page load time': 4.6820690631866455, 'login page load time': 13.77084732055664, 'test at': 'Tue May 29 16:31:25 2018'}}
+{'17dum3593': {'home page load time': 4.271351337432861, 'login page load time': 15.975436449050903, 'test at': 'Tue May 29 16:31:25 2018'}}
+{'17dum3587': {'home page load time': 10.059363842010498, 'login page load time': 10.957847356796265, 'test at': 'Tue May 29 16:31:26 2018'}}
+#
+{'17dum2652': {'login page load time': 10.15060830116272, 'home page load time': 5.942295551300049, 'test at': 'Tue May 29 16:30:05 2018'}}
+{'17dum2657': {'login page load time': 10.55205774307251, 'home page load time': 3.799067735671997, 'test at': 'Tue May 29 16:30:07 2018'}}
+{'17dum2653': {'login page load time': 7.855544328689575, 'home page load time': 6.183880567550659, 'test at': 'Tue May 29 16:30:08 2018'}}
+{'17dum2654': {'login page load time': 12.208962202072144, 'home page load time': 3.1071531772613525, 'test at': 'Tue May 29 16:30:07 2018'}}
+{'17dum2660': {'login page load time': 10.914561748504639, 'home page load time': 4.272387742996216, 'test at': 'Tue May 29 16:30:07 2018'}}
+{'17dum2651': {'login page load time': 11.353304862976074, 'home page load time': 5.569422483444214, 'test at': 'Tue May 29 16:30:06 2018'}}
+{'17dum2656': {'login page load time': 11.188491582870483, 'home page load time': 5.893216609954834, 'test at': 'Tue May 29 16:30:07 2018'}}
+{'17dum2659': {'login page load time': 11.096122026443481, 'home page load time': 6.319204568862915, 'test at': 'Tue May 29 16:30:07 2018'}}
+{'17dum2655': {'login page load time': 8.556900262832642, 'home page load time': 11.061550617218018, 'test at': 'Tue May 29 16:30:08 2018'}}
+{'17dum2658': {'login page load time': 9.727834701538086, 'home page load time': 10.140413284301758, 'test at': 'Tue May 29 16:30:08 2018'}}
+#
+{'17dum1167': {'test at': 'Tue May 29 07:00:29 2018', 'login page load time': 7.327254295349121, 'home page load time': 2.830718755722046}}
+{'17dum1166': {'test at': 'Tue May 29 07:00:30 2018', 'login page load time': 7.307056903839111, 'home page load time': 3.104478359222412}}
+{'17dum1173': {'test at': 'Tue May 29 07:00:31 2018', 'login page load time': 6.370005369186401, 'home page load time': 4.069949150085449}}
+{'17dum1172': {'test at': 'Tue May 29 07:00:30 2018', 'login page load time': 6.361262083053589, 'home page load time': 4.768669366836548}}
+{'17dum1174': {'test at': 'Tue May 29 07:00:31 2018', 'login page load time': 8.447130680084229, 'home page load time': 4.17852783203125}}
+{'17dum1170': {'test at': 'Tue May 29 07:00:31 2018', 'login page load time': 8.577778577804565, 'home page load time': 6.330557823181152}}
+{'17dum1168': {'test at': 'Tue May 29 07:00:30 2018', 'login page load time': 12.742143630981445, 'home page load time': 3.8689770698547363}}
+{'17dum1169': {'test at': 'Tue May 29 07:00:29 2018', 'login page load time': 14.03420114517212, 'home page load time': 4.365019798278809}}
+{'17dum1175': {'test at': 'Tue May 29 07:00:31 2018', 'login page load time': 14.56934142112732, 'home page load time': 3.1344869136810303}}
+{'17dum1171': {'test at': 'Tue May 29 07:00:30 2018', 'login page load time': 8.298407316207886, 'home page load time': 18.294288396835327}}
+#
+{'17dum1890': {'home page load time': 3.271449327468872, 'login page load time': 7.930468797683716, 'test at': 'Tue May 29 16:21:59 2018'}}
+{'17dum1885': {'home page load time': 4.281152963638306, 'login page load time': 9.41631269454956, 'test at': 'Tue May 29 16:21:58 2018'}}
+{'17dum1888': {'home page load time': 4.117469549179077, 'login page load time': 9.048310279846191, 'test at': 'Tue May 29 16:21:59 2018'}}
+{'17dum1881': {'home page load time': 4.2323949337005615, 'login page load time': 10.678179025650024, 'test at': 'Tue May 29 16:21:58 2018'}}
+{'17dum1886': {'home page load time': 7.8852221965789795, 'login page load time': 7.935551643371582, 'test at': 'Tue May 29 16:21:58 2018'}}
+{'17dum1882': {'home page load time': 4.33537745475769, 'login page load time': 13.456049680709839, 'test at': 'Tue May 29 16:21:56 2018'}}
+{'17dum1883': {'home page load time': 5.008579969406128, 'login page load time': 7.441035270690918, 'test at': 'Tue May 29 16:22:02 2018'}}
+{'17dum1889': {'home page load time': 6.888663291931152, 'login page load time': 12.610792875289917, 'test at': 'Tue May 29 16:21:57 2018'}}
+{'17dum1887': {'home page load time': 4.262183427810669, 'login page load time': 12.757185220718384, 'test at': 'Tue May 29 16:21:58 2018'}}
+{'17dum1884': {'home page load time': 4.469459056854248, 'login page load time': 13.289326429367065, 'test at': 'Tue May 29 16:21:58 2018'}}
+#
+{'17dum2715': {'home page load time': 2.583439350128174, 'test at': 'Tue May 29 16:32:32 2018', 'login page load time': 5.219977855682373}}
+{'17dum2707': {'home page load time': 3.0148682594299316, 'test at': 'Tue May 29 16:32:31 2018', 'login page load time': 6.932121992111206}}
+{'17dum2709': {'home page load time': 4.204631090164185, 'test at': 'Tue May 29 16:32:30 2018', 'login page load time': 8.684961080551147}}
+{'17dum2714': {'home page load time': 4.089248418807983, 'test at': 'Tue May 29 16:32:32 2018', 'login page load time': 7.761267185211182}}
+{'17dum2712': {'home page load time': 4.0212461948394775, 'test at': 'Tue May 29 16:32:31 2018', 'login page load time': 8.910877466201782}}
+{'17dum2706': {'home page load time': 5.320603370666504, 'test at': 'Tue May 29 16:32:32 2018', 'login page load time': 7.480817079544067}}
+{'17dum2710': {'home page load time': 4.242164373397827, 'test at': 'Tue May 29 16:32:30 2018', 'login page load time': 12.453261852264404}}
+{'17dum2713': {'home page load time': 5.562024354934692, 'test at': 'Tue May 29 16:32:29 2018', 'login page load time': 11.66051697731018}}
+{'17dum2708': {'home page load time': 4.357034921646118, 'test at': 'Tue May 29 16:32:32 2018', 'login page load time': 11.403621435165405}}
+{'17dum2711': {'home page load time': 7.205771446228027, 'test at': 'Tue May 29 16:32:32 2018', 'login page load time': 9.363331317901611}}
+#
+{'17dum1221': {'test at': 'Tue May 29 16:35:18 2018', 'home page load time': 5.754815340042114, 'login page load time': 7.843956708908081}}
+{'17dum1223': {'test at': 'Tue May 29 16:35:17 2018', 'home page load time': 4.9621381759643555, 'login page load time': 9.183990240097046}}
+{'17dum1225': {'test at': 'Tue May 29 16:35:18 2018', 'home page load time': 3.7513835430145264, 'login page load time': 12.498357772827148}}
+{'17dum1227': {'test at': 'Tue May 29 16:35:17 2018', 'home page load time': 4.5265212059021, 'login page load time': 13.000472784042358}}
+{'17dum1224': {'test at': 'Tue May 29 16:35:18 2018', 'home page load time': 4.893591642379761, 'login page load time': 12.644286870956421}}
+{'17dum1229': {'test at': 'Tue May 29 16:35:16 2018', 'home page load time': 3.8222084045410156, 'login page load time': 14.95504093170166}}
+{'17dum1226': {'test at': 'Tue May 29 16:35:18 2018', 'home page load time': 4.377574682235718, 'login page load time': 12.867674112319946}}
+{'17dum1230': {'test at': 'Tue May 29 16:35:18 2018', 'home page load time': 5.593946695327759, 'login page load time': 13.296272039413452}}
+{'17dum1222': {'test at': 'Tue May 29 16:35:18 2018', 'home page load time': 5.1585633754730225, 'login page load time': 13.663605690002441}}
+{'17dum1228': {'test at': 'Tue May 29 16:35:18 2018', 'home page load time': 10.88329529762268, 'login page load time': 10.122286796569824}}
+#
+{'17dum2768': {'home page load time': 2.6630032062530518, 'login page load time': 7.089380502700806, 'test at': 'Tue May 29 22:22:06 2018'}}
+{'17dum2761': {'home page load time': 2.6416356563568115, 'login page load time': 5.279353380203247, 'test at': 'Tue May 29 22:22:09 2018'}}
+{'17dum2764': {'home page load time': 2.9556524753570557, 'login page load time': 6.515866041183472, 'test at': 'Tue May 29 22:22:09 2018'}}
+{'17dum2762': {'home page load time': 3.4562442302703857, 'login page load time': 5.718173503875732, 'test at': 'Tue May 29 22:22:09 2018'}}
+{'17dum2770': {'home page load time': 3.8977608680725098, 'login page load time': 8.8254873752594, 'test at': 'Tue May 29 22:22:08 2018'}}
+{'17dum2769': {'home page load time': 3.752899646759033, 'login page load time': 11.39704442024231, 'test at': 'Tue May 29 22:22:08 2018'}}
+{'17dum2766': {'home page load time': 4.337343692779541, 'login page load time': 10.87151312828064, 'test at': 'Tue May 29 22:22:09 2018'}}
+{'17dum2765': {'home page load time': 4.301148414611816, 'login page load time': 13.260632991790771, 'test at': 'Tue May 29 22:22:08 2018'}}
+{'17dum2767': {'home page load time': 5.341531276702881, 'login page load time': 14.282996654510498, 'test at': 'Tue May 29 22:22:07 2018'}}
+{'17dum2763': {'home page load time': 6.384953022003174, 'login page load time': 12.756993532180786, 'test at': 'Tue May 29 22:22:08 2018'}}
+#
+{'17dum1278': {'login page load time': 6.713144063949585, 'test at': 'Tue May 29 16:30:42 2018', 'home page load time': 4.865648984909058}}
+{'17dum1283': {'login page load time': 8.205792903900146, 'test at': 'Tue May 29 16:30:41 2018', 'home page load time': 5.433596849441528}}
+{'17dum1276': {'login page load time': 7.869407892227173, 'test at': 'Tue May 29 16:30:40 2018', 'home page load time': 6.718968868255615}}
+{'17dum1285': {'login page load time': 8.94745421409607, 'test at': 'Tue May 29 16:30:41 2018', 'home page load time': 5.379876613616943}}
+{'17dum1284': {'login page load time': 10.021068572998047, 'test at': 'Tue May 29 16:30:42 2018', 'home page load time': 4.644615173339844}}
+{'17dum1277': {'login page load time': 11.259352207183838, 'test at': 'Tue May 29 16:30:41 2018', 'home page load time': 5.813862323760986}}
+{'17dum1279': {'login page load time': 13.630278587341309, 'test at': 'Tue May 29 16:30:42 2018', 'home page load time': 3.632436990737915}}
+{'17dum1281': {'login page load time': 12.941344499588013, 'test at': 'Tue May 29 16:30:42 2018', 'home page load time': 4.640252590179443}}
+{'17dum1280': {'login page load time': 12.897563695907593, 'test at': 'Tue May 29 16:30:41 2018', 'home page load time': 5.519005298614502}}
+{'17dum1282': {'login page load time': 13.16288948059082, 'test at': 'Tue May 29 16:30:41 2018', 'home page load time': 5.4668965339660645}}
+#
+{'17dum2000': {'test at': 'Tue May 29 07:00:33 2018', 'login page load time': 6.054611444473267, 'home page load time': 4.203312397003174}}
+{'17dum1997': {'test at': 'Tue May 29 07:00:34 2018', 'login page load time': 6.455156564712524, 'home page load time': 4.350862979888916}}
+{'17dum1993': {'test at': 'Tue May 29 07:00:33 2018', 'login page load time': 7.61475133895874, 'home page load time': 3.9911763668060303}}
+{'17dum1996': {'test at': 'Tue May 29 07:00:33 2018', 'login page load time': 8.025584697723389, 'home page load time': 4.645900249481201}}
+{'17dum1995': {'test at': 'Tue May 29 07:00:35 2018', 'login page load time': 6.680764198303223, 'home page load time': 2.99429988861084}}
+{'17dum1999': {'test at': 'Tue May 29 07:00:34 2018', 'login page load time': 7.918070077896118, 'home page load time': 3.827409029006958}}
+{'17dum1998': {'test at': 'Tue May 29 07:00:36 2018', 'login page load time': 7.727264881134033, 'home page load time': 3.788288116455078}}
+{'17dum1992': {'test at': 'Tue May 29 07:00:36 2018', 'login page load time': 6.342855930328369, 'home page load time': 6.65187668800354}}
+{'17dum1994': {'test at': 'Tue May 29 07:00:36 2018', 'login page load time': 9.185261726379395, 'home page load time': 3.856504440307617}}
+{'17dum1991': {'test at': 'Tue May 29 07:00:32 2018', 'login page load time': 12.022234678268433, 'home page load time': 4.517529726028442}}
+#
+{'17dum2821': {'test at': 'Tue May 29 16:33:31 2018', 'login page load time': 6.646765470504761, 'home page load time': 2.9256505966186523}}
+{'17dum2819': {'test at': 'Tue May 29 16:33:29 2018', 'login page load time': 8.465637683868408, 'home page load time': 3.6864466667175293}}
+{'17dum2822': {'test at': 'Tue May 29 16:33:29 2018', 'login page load time': 7.850861072540283, 'home page load time': 4.7659454345703125}}
+{'17dum2820': {'test at': 'Tue May 29 16:33:30 2018', 'login page load time': 9.40652585029602, 'home page load time': 4.44488000869751}}
+{'17dum2823': {'test at': 'Tue May 29 16:33:31 2018', 'login page load time': 8.851783990859985, 'home page load time': 5.225192070007324}}
+{'17dum2825': {'test at': 'Tue May 29 16:33:30 2018', 'login page load time': 10.961044311523438, 'home page load time': 3.330427885055542}}
+{'17dum2816': {'test at': 'Tue May 29 16:33:31 2018', 'login page load time': 7.673112154006958, 'home page load time': 7.107332944869995}}
+{'17dum2818': {'test at': 'Tue May 29 16:33:31 2018', 'login page load time': 11.779096126556396, 'home page load time': 4.332399845123291}}
+{'17dum2824': {'test at': 'Tue May 29 16:33:30 2018', 'login page load time': 13.524725437164307, 'home page load time': 5.234093189239502}}
+{'17dum2817': {'test at': 'Tue May 29 16:33:31 2018', 'login page load time': 9.445590019226074, 'home page load time': 11.054069757461548}}
+#
+{'17dum1336': {'home page load time': 3.873614549636841, 'login page load time': 6.450076103210449, 'test at': 'Tue May 29 16:24:56 2018'}}
+{'17dum1340': {'home page load time': 3.590207576751709, 'login page load time': 6.8913891315460205, 'test at': 'Tue May 29 16:24:56 2018'}}
+{'17dum1335': {'home page load time': 4.36840033531189, 'login page load time': 7.217445373535156, 'test at': 'Tue May 29 16:24:56 2018'}}
+{'17dum1337': {'home page load time': 3.5766794681549072, 'login page load time': 8.647537231445312, 'test at': 'Tue May 29 16:24:55 2018'}}
+{'17dum1333': {'home page load time': 4.89206337928772, 'login page load time': 8.607187747955322, 'test at': 'Tue May 29 16:24:57 2018'}}
+{'17dum1338': {'home page load time': 4.871783494949341, 'login page load time': 10.0691077709198, 'test at': 'Tue May 29 16:24:55 2018'}}
+{'17dum1331': {'home page load time': 4.006465911865234, 'login page load time': 11.508382320404053, 'test at': 'Tue May 29 16:24:56 2018'}}
+{'17dum1334': {'home page load time': 3.9015188217163086, 'login page load time': 11.553115129470825, 'test at': 'Tue May 29 16:24:56 2018'}}
+{'17dum1332': {'home page load time': 4.097104072570801, 'login page load time': 12.79514479637146, 'test at': 'Tue May 29 16:24:57 2018'}}
+{'17dum1339': {'home page load time': 10.921327114105225, 'login page load time': 8.775169372558594, 'test at': 'Tue May 29 16:24:57 2018'}}
+#
+{'17dum2051': {'test at': 'Tue May 29 16:26:14 2018', 'login page load time': 6.649505376815796, 'home page load time': 4.730681657791138}}
+{'17dum2054': {'test at': 'Tue May 29 16:26:15 2018', 'login page load time': 5.146695613861084, 'home page load time': 5.10193943977356}}
+{'17dum2050': {'test at': 'Tue May 29 16:26:15 2018', 'login page load time': 6.9144368171691895, 'home page load time': 4.176045656204224}}
+{'17dum2049': {'test at': 'Tue May 29 16:26:15 2018', 'login page load time': 6.084135055541992, 'home page load time': 4.957336187362671}}
+{'17dum2047': {'test at': 'Tue May 29 16:26:15 2018', 'login page load time': 8.141193628311157, 'home page load time': 4.815283298492432}}
+{'17dum2053': {'test at': 'Tue May 29 16:26:15 2018', 'login page load time': 8.83417010307312, 'home page load time': 5.429899454116821}}
+{'17dum2055': {'test at': 'Tue May 29 16:26:15 2018', 'login page load time': 13.13134479522705, 'home page load time': 4.4013285636901855}}
+{'17dum2048': {'test at': 'Tue May 29 16:26:15 2018', 'login page load time': 12.0910165309906, 'home page load time': 5.538668870925903}}
+{'17dum2046': {'test at': 'Tue May 29 16:26:15 2018', 'login page load time': 14.595171451568604, 'home page load time': 4.172269344329834}}
+{'17dum2052': {'test at': 'Tue May 29 16:26:14 2018', 'login page load time': 11.005145788192749, 'home page load time': 10.754445791244507}}
+#
+{'17dum2872': {'test at': 'Tue May 29 07:05:14 2018', 'login page load time': 9.66317868232727, 'home page load time': 2.5141890048980713}}
+{'17dum2880': {'test at': 'Tue May 29 07:05:13 2018', 'login page load time': 8.651655912399292, 'home page load time': 4.064746618270874}}
+{'17dum2874': {'test at': 'Tue May 29 07:05:13 2018', 'login page load time': 7.184054851531982, 'home page load time': 6.401305437088013}}
+{'17dum2875': {'test at': 'Tue May 29 07:05:13 2018', 'login page load time': 10.362688064575195, 'home page load time': 3.8592209815979004}}
+{'17dum2879': {'test at': 'Tue May 29 07:05:13 2018', 'login page load time': 10.148000955581665, 'home page load time': 4.479524612426758}}
+{'17dum2871': {'test at': 'Tue May 29 07:05:13 2018', 'login page load time': 11.32233738899231, 'home page load time': 5.053448677062988}}
+{'17dum2877': {'test at': 'Tue May 29 07:05:13 2018', 'login page load time': 10.769575834274292, 'home page load time': 5.558155059814453}}
+{'17dum2878': {'test at': 'Tue May 29 07:05:13 2018', 'login page load time': 11.503961086273193, 'home page load time': 7.41537618637085}}
+{'17dum2873': {'test at': 'Tue May 29 07:05:14 2018', 'login page load time': 9.726598978042603, 'home page load time': 7.418641090393066}}
+{'17dum2876': {'test at': 'Tue May 29 07:05:16 2018', 'login page load time': 8.84156322479248, 'home page load time': 8.190715074539185}}
+#
+{'17dum1387': {'login page load time': 6.693370580673218, 'home page load time': 3.8398427963256836, 'test at': 'Tue May 29 07:00:38 2018'}}
+{'17dum1394': {'login page load time': 6.758682012557983, 'home page load time': 4.347529172897339, 'test at': 'Tue May 29 07:00:40 2018'}}
+{'17dum1392': {'login page load time': 7.883085012435913, 'home page load time': 3.639686107635498, 'test at': 'Tue May 29 07:00:40 2018'}}
+{'17dum1390': {'login page load time': 7.9405763149261475, 'home page load time': 5.483255386352539, 'test at': 'Tue May 29 07:00:39 2018'}}
+{'17dum1386': {'login page load time': 11.62825083732605, 'home page load time': 4.1745617389678955, 'test at': 'Tue May 29 07:00:39 2018'}}
+{'17dum1395': {'login page load time': 12.432946681976318, 'home page load time': 4.209285497665405, 'test at': 'Tue May 29 07:00:40 2018'}}
+{'17dum1389': {'login page load time': 12.139779806137085, 'home page load time': 5.089231729507446, 'test at': 'Tue May 29 07:00:40 2018'}}
+{'17dum1393': {'login page load time': 12.200384140014648, 'home page load time': 4.308642625808716, 'test at': 'Tue May 29 07:00:40 2018'}}
+{'17dum1388': {'login page load time': 11.070088624954224, 'home page load time': 7.647799968719482, 'test at': 'Tue May 29 07:00:40 2018'}}
+{'17dum1391': {'login page load time': 10.305644989013672, 'home page load time': 10.052279233932495, 'test at': 'Tue May 29 07:00:40 2018'}}
+#
+{'17dum2109': {'login page load time': 7.918170213699341, 'test at': 'Tue May 29 16:37:17 2018', 'home page load time': 3.383713483810425}}
+{'17dum2110': {'login page load time': 9.610775232315063, 'test at': 'Tue May 29 16:37:15 2018', 'home page load time': 4.181331634521484}}
+{'17dum2103': {'login page load time': 10.250439405441284, 'test at': 'Tue May 29 16:37:15 2018', 'home page load time': 4.481863737106323}}
+{'17dum2104': {'login page load time': 10.830915927886963, 'test at': 'Tue May 29 16:37:16 2018', 'home page load time': 3.479442596435547}}
+{'17dum2106': {'login page load time': 10.509830474853516, 'test at': 'Tue May 29 16:37:16 2018', 'home page load time': 3.6600539684295654}}
+{'17dum2107': {'login page load time': 7.486415147781372, 'test at': 'Tue May 29 16:37:16 2018', 'home page load time': 7.2100207805633545}}
+{'17dum2105': {'login page load time': 14.676140069961548, 'test at': 'Tue May 29 16:37:13 2018', 'home page load time': 5.638033151626587}}
+{'17dum2102': {'login page load time': 9.246667861938477, 'test at': 'Tue May 29 16:37:16 2018', 'home page load time': 7.30480170249939}}
+{'17dum2108': {'login page load time': 13.43829870223999, 'test at': 'Tue May 29 16:37:16 2018', 'home page load time': 4.169220924377441}}
+#
+{'17dum2927': {'home page load time': 3.9619879722595215, 'login page load time': 6.7137672901153564, 'test at': 'Tue May 29 16:38:01 2018'}}
+{'17dum2926': {'home page load time': 3.412741184234619, 'login page load time': 8.048310041427612, 'test at': 'Tue May 29 16:38:02 2018'}}
+{'17dum2933': {'home page load time': 5.243829250335693, 'login page load time': 8.129111766815186, 'test at': 'Tue May 29 16:38:01 2018'}}
+{'17dum2929': {'home page load time': 5.209386825561523, 'login page load time': 8.962186098098755, 'test at': 'Tue May 29 16:38:01 2018'}}
+{'17dum2932': {'home page load time': 4.022694826126099, 'login page load time': 10.120851993560791, 'test at': 'Tue May 29 16:38:02 2018'}}
+{'17dum2934': {'home page load time': 3.928183078765869, 'login page load time': 11.225787878036499, 'test at': 'Tue May 29 16:38:01 2018'}}
+{'17dum2931': {'home page load time': 5.232753276824951, 'login page load time': 12.378418684005737, 'test at': 'Tue May 29 16:38:02 2018'}}
+{'17dum2930': {'home page load time': 5.553272008895874, 'login page load time': 11.894400119781494, 'test at': 'Tue May 29 16:38:02 2018'}}
+{'17dum2928': {'home page load time': 5.809762239456177, 'login page load time': 13.043503046035767, 'test at': 'Tue May 29 16:38:01 2018'}}
+{'17dum2935': {'home page load time': 7.908491611480713, 'login page load time': 10.73468828201294, 'test at': 'Tue May 29 16:38:02 2018'}}
+#
+{'17dum1442': {'home page load time': 3.440385580062866, 'test at': 'Tue May 29 16:37:24 2018', 'login page load time': 6.744813442230225}}
+{'17dum1447': {'home page load time': 3.0473275184631348, 'test at': 'Tue May 29 16:37:24 2018', 'login page load time': 6.482823848724365}}
+{'17dum1444': {'home page load time': 4.614690065383911, 'test at': 'Tue May 29 16:37:24 2018', 'login page load time': 6.983076333999634}}
+{'17dum1443': {'home page load time': 5.6038124561309814, 'test at': 'Tue May 29 16:37:24 2018', 'login page load time': 8.765308380126953}}
+{'17dum1441': {'home page load time': 4.0660481452941895, 'test at': 'Tue May 29 16:37:24 2018', 'login page load time': 11.00096845626831}}
+{'17dum1445': {'home page load time': 4.24393892288208, 'test at': 'Tue May 29 16:37:24 2018', 'login page load time': 10.834495067596436}}
+{'17dum1448': {'home page load time': 3.9679343700408936, 'test at': 'Tue May 29 16:37:22 2018', 'login page load time': 13.66642451286316}}
+{'17dum1449': {'home page load time': 4.3529181480407715, 'test at': 'Tue May 29 16:37:23 2018', 'login page load time': 13.711177349090576}}
+{'17dum1446': {'home page load time': 3.725039005279541, 'test at': 'Tue May 29 16:37:24 2018', 'login page load time': 13.757373332977295}}
+{'17dum1450': {'home page load time': 5.042940855026245, 'test at': 'Tue May 29 16:37:23 2018', 'login page load time': 14.211206197738647}}
+#
+#
+{'17dum2984': {'login page load time': 6.593754053115845, 'home page load time': 3.5857882499694824, 'test at': 'Tue May 29 16:37:35 2018'}}
+{'17dum2987': {'login page load time': 6.681611776351929, 'home page load time': 3.9363229274749756, 'test at': 'Tue May 29 16:37:36 2018'}}
+{'17dum2989': {'login page load time': 8.209369659423828, 'home page load time': 4.249070882797241, 'test at': 'Tue May 29 16:37:35 2018'}}
+{'17dum2988': {'login page load time': 7.615420341491699, 'home page load time': 5.708125829696655, 'test at': 'Tue May 29 16:37:36 2018'}}
+{'17dum2986': {'login page load time': 11.59513258934021, 'home page load time': 4.107942342758179, 'test at': 'Tue May 29 16:37:35 2018'}}
+{'17dum2985': {'login page load time': 10.896572351455688, 'home page load time': 3.714261531829834, 'test at': 'Tue May 29 16:37:36 2018'}}
+{'17dum2990': {'login page load time': 13.374449729919434, 'home page load time': 3.979210138320923, 'test at': 'Tue May 29 16:37:34 2018'}}
+{'17dum2983': {'login page load time': 12.429789066314697, 'home page load time': 4.490607976913452, 'test at': 'Tue May 29 16:37:35 2018'}}
+{'17dum2982': {'login page load time': 14.228476762771606, 'home page load time': 5.114997625350952, 'test at': 'Tue May 29 16:37:33 2018'}}
+{'17dum2981': {'login page load time': 8.47467565536499, 'home page load time': 10.750155687332153, 'test at': 'Tue May 29 16:37:35 2018'}}
+#
+{'17dum1502': {'test at': 'Tue May 29 16:29:12 2018', 'login page load time': 6.9650256633758545, 'home page load time': 3.070556640625}}
+{'17dum1503': {'test at': 'Tue May 29 16:29:13 2018', 'login page load time': 6.903194904327393, 'home page load time': 4.851778030395508}}
+{'17dum1504': {'test at': 'Tue May 29 16:29:13 2018', 'login page load time': 9.230726480484009, 'home page load time': 3.9943900108337402}}
+{'17dum1498': {'test at': 'Tue May 29 16:29:13 2018', 'login page load time': 8.006259679794312, 'home page load time': 5.156070709228516}}
+{'17dum1505': {'test at': 'Tue May 29 16:29:11 2018', 'login page load time': 11.112358093261719, 'home page load time': 4.929745674133301}}
+{'17dum1500': {'test at': 'Tue May 29 16:29:13 2018', 'login page load time': 12.312958478927612, 'home page load time': 4.127527952194214}}
+{'17dum1497': {'test at': 'Tue May 29 16:29:13 2018', 'login page load time': 11.581609010696411, 'home page load time': 5.684410810470581}}
+{'17dum1496': {'test at': 'Tue May 29 16:29:13 2018', 'login page load time': 13.47797417640686, 'home page load time': 4.221157789230347}}
+{'17dum1499': {'test at': 'Tue May 29 16:29:12 2018', 'login page load time': 14.536087036132812, 'home page load time': 4.346014738082886}}
+{'17dum1501': {'test at': 'Tue May 29 16:29:13 2018', 'login page load time': 7.703154802322388, 'home page load time': 11.304720640182495}}
+#
+{'17dum2158': {'home page load time': 4.598243713378906, 'login page load time': 6.628528118133545, 'test at': 'Tue May 29 06:59:38 2018'}}
+{'17dum2165': {'home page load time': 4.52912712097168, 'login page load time': 7.967342138290405, 'test at': 'Tue May 29 06:59:38 2018'}}
+{'17dum2164': {'home page load time': 6.380703449249268, 'login page load time': 6.390688419342041, 'test at': 'Tue May 29 06:59:38 2018'}}
+{'17dum2157': {'home page load time': 4.96004056930542, 'login page load time': 8.044204235076904, 'test at': 'Tue May 29 06:59:38 2018'}}
+{'17dum2162': {'home page load time': 7.008184194564819, 'login page load time': 6.728507041931152, 'test at': 'Tue May 29 06:59:38 2018'}}
+{'17dum2163': {'home page load time': 3.366365671157837, 'login page load time': 12.437812566757202, 'test at': 'Tue May 29 06:59:38 2018'}}
+{'17dum2160': {'home page load time': 7.420232057571411, 'login page load time': 10.055269241333008, 'test at': 'Tue May 29 06:59:38 2018'}}
+{'17dum2159': {'home page load time': 3.8791489601135254, 'login page load time': 13.289503335952759, 'test at': 'Tue May 29 06:59:38 2018'}}
+{'17dum2156': {'home page load time': 12.376881122589111, 'login page load time': 6.063943386077881, 'test at': 'Tue May 29 06:59:38 2018'}}
+{'17dum2161': {'home page load time': 7.62849497795105, 'login page load time': 12.655402660369873, 'test at': 'Tue May 29 06:59:38 2018'}}
+#
+{'17dum3045': {'login page load time': 7.1295166015625, 'home page load time': 3.217576742172241, 'test at': 'Tue May 29 16:37:18 2018'}}
+{'17dum3037': {'login page load time': 10.21899151802063, 'home page load time': 4.533944606781006, 'test at': 'Tue May 29 16:37:17 2018'}}
+{'17dum3039': {'login page load time': 9.554744720458984, 'home page load time': 4.497616767883301, 'test at': 'Tue May 29 16:37:18 2018'}}
+{'17dum3043': {'login page load time': 8.176732063293457, 'home page load time': 6.115987300872803, 'test at': 'Tue May 29 16:37:18 2018'}}
+{'17dum3044': {'login page load time': 10.49781084060669, 'home page load time': 4.287017345428467, 'test at': 'Tue May 29 16:37:18 2018'}}
+{'17dum3041': {'login page load time': 12.487622022628784, 'home page load time': 3.4838879108428955, 'test at': 'Tue May 29 16:37:17 2018'}}
+{'17dum3042': {'login page load time': 12.144383907318115, 'home page load time': 4.2538676261901855, 'test at': 'Tue May 29 16:37:17 2018'}}
+{'17dum3036': {'login page load time': 12.247524499893188, 'home page load time': 4.146033525466919, 'test at': 'Tue May 29 16:37:18 2018'}}
+{'17dum3038': {'login page load time': 13.216282844543457, 'home page load time': 4.5176379680633545, 'test at': 'Tue May 29 16:37:19 2018'}}
+{'17dum3040': {'login page load time': 11.198110103607178, 'home page load time': 11.813172340393066, 'test at': 'Tue May 29 16:37:16 2018'}}
+#
+{'17dum1560': {'login page load time': 6.390526294708252, 'home page load time': 2.505915403366089, 'test at': 'Tue May 29 16:45:40 2018'}}
+{'17dum1558': {'login page load time': 6.687100410461426, 'home page load time': 3.1966781616210938, 'test at': 'Tue May 29 16:45:39 2018'}}
+{'17dum1554': {'login page load time': 9.337065935134888, 'home page load time': 4.059796571731567, 'test at': 'Tue May 29 16:45:40 2018'}}
+{'17dum1551': {'login page load time': 7.213248014450073, 'home page load time': 6.03633975982666, 'test at': 'Tue May 29 16:45:40 2018'}}
+{'17dum1555': {'login page load time': 12.805386304855347, 'home page load time': 5.640942335128784, 'test at': 'Tue May 29 16:45:39 2018'}}
+{'17dum1552': {'login page load time': 10.14613151550293, 'home page load time': 7.768607139587402, 'test at': 'Tue May 29 16:45:40 2018'}}
+{'17dum1556': {'login page load time': 13.747114419937134, 'home page load time': 4.521722793579102, 'test at': 'Tue May 29 16:45:40 2018'}}
+{'17dum1557': {'login page load time': 15.916855335235596, 'home page load time': 3.4872453212738037, 'test at': 'Tue May 29 16:45:40 2018'}}
+{'17dum1559': {'login page load time': 13.269850969314575, 'home page load time': 10.293508529663086, 'test at': 'Tue May 29 16:45:37 2018'}}
+#
+{'17dum3697': {'test at': 'Tue May 29 16:41:15 2018', 'login page load time': 6.0047926902771, 'home page load time': 3.547987699508667}}
+{'17dum3699': {'test at': 'Tue May 29 16:41:14 2018', 'login page load time': 7.468273401260376, 'home page load time': 3.4103503227233887}}
+{'17dum3702': {'test at': 'Tue May 29 16:41:15 2018', 'login page load time': 7.000529527664185, 'home page load time': 3.49161958694458}}
+{'17dum3698': {'test at': 'Tue May 29 16:41:14 2018', 'login page load time': 6.476688861846924, 'home page load time': 4.933519124984741}}
+{'17dum3705': {'test at': 'Tue May 29 16:41:14 2018', 'login page load time': 9.726011276245117, 'home page load time': 4.561504602432251}}
+{'17dum3700': {'test at': 'Tue May 29 16:41:14 2018', 'login page load time': 10.54733157157898, 'home page load time': 4.248685598373413}}
+{'17dum3696': {'test at': 'Tue May 29 16:41:14 2018', 'login page load time': 10.633455991744995, 'home page load time': 5.3082802295684814}}
+{'17dum3703': {'test at': 'Tue May 29 16:41:15 2018', 'login page load time': 16.21650791168213, 'home page load time': 2.281522512435913}}
+{'17dum3704': {'test at': 'Tue May 29 16:41:15 2018', 'login page load time': 12.973647594451904, 'home page load time': 6.449562072753906}}
+{'17dum3701': {'test at': 'Tue May 29 16:41:15 2018', 'login page load time': 9.592267751693726, 'home page load time': 10.919498443603516}}
+#
+{'17dum3098': {'test at': 'Tue May 29 07:01:00 2018', 'login page load time': 8.773173332214355, 'home page load time': 3.3493807315826416}}
+{'17dum3093': {'test at': 'Tue May 29 07:01:02 2018', 'login page load time': 7.569449424743652, 'home page load time': 4.049243211746216}}
+{'17dum3095': {'test at': 'Tue May 29 07:01:02 2018', 'login page load time': 6.145303964614868, 'home page load time': 5.403828144073486}}
+{'17dum3100': {'test at': 'Tue May 29 07:01:02 2018', 'login page load time': 6.1611433029174805, 'home page load time': 5.555103302001953}}
+{'17dum3096': {'test at': 'Tue May 29 07:01:02 2018', 'login page load time': 9.581624031066895, 'home page load time': 3.069700002670288}}
+{'17dum3097': {'test at': 'Tue May 29 07:01:02 2018', 'login page load time': 7.443220853805542, 'home page load time': 5.403360366821289}}
+{'17dum3091': {'test at': 'Tue May 29 07:01:02 2018', 'login page load time': 11.222373485565186, 'home page load time': 3.9155282974243164}}
+{'17dum3094': {'test at': 'Tue May 29 07:01:02 2018', 'login page load time': 12.250222444534302, 'home page load time': 4.016425848007202}}
+{'17dum3092': {'test at': 'Tue May 29 07:01:01 2018', 'login page load time': 13.50211477279663, 'home page load time': 5.381279230117798}}
+{'17dum3099': {'test at': 'Tue May 29 07:01:01 2018', 'login page load time': 13.629952669143677, 'home page load time': 5.518215179443359}}
+#
+{'17dum1610': {'test at': 'Tue May 29 16:33:08 2018', 'login page load time': 5.6614367961883545, 'home page load time': 1.77679443359375}}
+{'17dum1614': {'test at': 'Tue May 29 16:33:10 2018', 'login page load time': 6.24031400680542, 'home page load time': 3.0498836040496826}}
+{'17dum1608': {'test at': 'Tue May 29 16:33:10 2018', 'login page load time': 5.116336822509766, 'home page load time': 5.021240234375}}
+{'17dum1615': {'test at': 'Tue May 29 16:33:11 2018', 'login page load time': 5.870602130889893, 'home page load time': 4.00624942779541}}
+{'17dum1609': {'test at': 'Tue May 29 16:33:10 2018', 'login page load time': 9.392281293869019, 'home page load time': 4.053853511810303}}
+{'17dum1606': {'test at': 'Tue May 29 16:33:09 2018', 'login page load time': 11.35029911994934, 'home page load time': 4.323715925216675}}
+{'17dum1613': {'test at': 'Tue May 29 16:33:11 2018', 'login page load time': 9.79288649559021, 'home page load time': 3.434641122817993}}
+{'17dum1611': {'test at': 'Tue May 29 16:33:10 2018', 'login page load time': 10.331545352935791, 'home page load time': 4.132415771484375}}
+{'17dum1607': {'test at': 'Tue May 29 16:33:10 2018', 'login page load time': 13.344472408294678, 'home page load time': 3.3050098419189453}}
+{'17dum1612': {'test at': 'Tue May 29 16:33:09 2018', 'login page load time': 9.632530689239502, 'home page load time': 11.196884393692017}}
+#
+{'17dum2218': {'home page load time': 2.7261998653411865, 'login page load time': 8.13770866394043, 'test at': 'Tue May 29 16:29:19 2018'}}
+{'17dum2220': {'home page load time': 4.928025007247925, 'login page load time': 5.429371118545532, 'test at': 'Tue May 29 16:29:20 2018'}}
+{'17dum2214': {'home page load time': 3.6136062145233154, 'login page load time': 8.523779392242432, 'test at': 'Tue May 29 16:29:20 2018'}}
+{'17dum2217': {'home page load time': 4.283047914505005, 'login page load time': 7.603607654571533, 'test at': 'Tue May 29 16:29:20 2018'}}
+{'17dum2212': {'home page load time': 3.3616890907287598, 'login page load time': 10.280792236328125, 'test at': 'Tue May 29 16:29:19 2018'}}
+{'17dum2211': {'home page load time': 4.33261251449585, 'login page load time': 9.545360088348389, 'test at': 'Tue May 29 16:29:20 2018'}}
+{'17dum2219': {'home page load time': 4.954380989074707, 'login page load time': 13.382597208023071, 'test at': 'Tue May 29 16:29:17 2018'}}
+{'17dum2215': {'home page load time': 3.8612372875213623, 'login page load time': 13.743355989456177, 'test at': 'Tue May 29 16:29:19 2018'}}
+{'17dum2213': {'home page load time': 5.008769512176514, 'login page load time': 12.962279081344604, 'test at': 'Tue May 29 16:29:20 2018'}}
+{'17dum2216': {'home page load time': 3.6442854404449463, 'login page load time': 16.134827136993408, 'test at': 'Tue May 29 16:29:20 2018'}}
+#
+{'17dum3146': {'login page load time': 5.5192999839782715, 'test at': 'Tue May 29 16:40:21 2018', 'home page load time': 1.8210783004760742}}
+{'17dum3147': {'login page load time': 7.7445948123931885, 'test at': 'Tue May 29 16:40:20 2018', 'home page load time': 2.2224228382110596}}
+{'17dum3150': {'login page load time': 7.501970291137695, 'test at': 'Tue May 29 16:40:21 2018', 'home page load time': 3.036715269088745}}
+{'17dum3155': {'login page load time': 6.684932231903076, 'test at': 'Tue May 29 16:40:20 2018', 'home page load time': 4.379129409790039}}
+{'17dum3151': {'login page load time': 9.09247088432312, 'test at': 'Tue May 29 16:40:20 2018', 'home page load time': 3.3035457134246826}}
+{'17dum3154': {'login page load time': 8.615464687347412, 'test at': 'Tue May 29 16:40:21 2018', 'home page load time': 4.220151424407959}}
+{'17dum3152': {'login page load time': 8.293653964996338, 'test at': 'Tue May 29 16:40:22 2018', 'home page load time': 4.903517484664917}}
+{'17dum3148': {'login page load time': 10.102038145065308, 'test at': 'Tue May 29 16:40:22 2018', 'home page load time': 3.4323716163635254}}
+{'17dum3153': {'login page load time': 10.97641658782959, 'test at': 'Tue May 29 16:40:22 2018', 'home page load time': 5.151658296585083}}
+{'17dum3149': {'login page load time': 11.48402190208435, 'test at': 'Tue May 29 16:40:22 2018', 'home page load time': 5.268547773361206}}
+#
+{'17dum3368': {'test at': 'Tue May 29 16:39:52 2018', 'login page load time': 6.051072597503662, 'home page load time': 3.5612545013427734}}
+{'17dum3375': {'test at': 'Tue May 29 16:39:54 2018', 'login page load time': 6.538364410400391, 'home page load time': 3.8112521171569824}}
+{'17dum3369': {'test at': 'Tue May 29 16:39:52 2018', 'login page load time': 7.523934841156006, 'home page load time': 4.9562225341796875}}
+{'17dum3366': {'test at': 'Tue May 29 16:39:51 2018', 'login page load time': 10.785154819488525, 'home page load time': 3.502676010131836}}
+{'17dum3367': {'test at': 'Tue May 29 16:39:53 2018', 'login page load time': 8.478708505630493, 'home page load time': 4.264915466308594}}
+{'17dum3370': {'test at': 'Tue May 29 16:39:53 2018', 'login page load time': 10.554260492324829, 'home page load time': 4.410659313201904}}
+{'17dum3374': {'test at': 'Tue May 29 16:39:52 2018', 'login page load time': 9.27045464515686, 'home page load time': 7.991712808609009}}
+{'17dum3373': {'test at': 'Tue May 29 16:39:54 2018', 'login page load time': 10.820088624954224, 'home page load time': 4.9360902309417725}}
+{'17dum3371': {'test at': 'Tue May 29 16:39:53 2018', 'login page load time': 11.157265424728394, 'home page load time': 5.495148420333862}}
+{'17dum3372': {'test at': 'Tue May 29 16:39:53 2018', 'login page load time': 10.910744905471802, 'home page load time': 10.096420764923096}}
+#
+{'17dum2269': {'test at': 'Tue May 29 16:30:39 2018', 'login page load time': 6.883553981781006, 'home page load time': 4.141011714935303}}
+{'17dum2266': {'test at': 'Tue May 29 16:30:40 2018', 'login page load time': 7.059198379516602, 'home page load time': 3.596940517425537}}
+{'17dum2275': {'test at': 'Tue May 29 16:30:39 2018', 'login page load time': 6.778447151184082, 'home page load time': 6.014422178268433}}
+{'17dum2272': {'test at': 'Tue May 29 16:30:39 2018', 'login page load time': 9.229978799819946, 'home page load time': 4.865989685058594}}
+{'17dum2273': {'test at': 'Tue May 29 16:30:37 2018', 'login page load time': 11.85459566116333, 'home page load time': 5.0309858322143555}}
+{'17dum2268': {'test at': 'Tue May 29 16:30:39 2018', 'login page load time': 5.11731481552124, 'home page load time': 10.476819038391113}}
+{'17dum2274': {'test at': 'Tue May 29 16:30:39 2018', 'login page load time': 11.771778345108032, 'home page load time': 5.412481784820557}}
+{'17dum2270': {'test at': 'Tue May 29 16:30:39 2018', 'login page load time': 12.495805978775024, 'home page load time': 4.263214588165283}}
+{'17dum2271': {'test at': 'Tue May 29 16:30:39 2018', 'login page load time': 13.08182668685913, 'home page load time': 3.441692352294922}}
+{'17dum2267': {'test at': 'Tue May 29 16:30:37 2018', 'login page load time': 16.31400227546692, 'home page load time': 2.265003204345703}}
+#
+{'17dum3206': {'test at': 'Tue May 29 16:28:33 2018', 'login page load time': 6.864004611968994, 'home page load time': 5.0378687381744385}}
+{'17dum3205': {'test at': 'Tue May 29 16:28:33 2018', 'login page load time': 9.67833161354065, 'home page load time': 3.067657470703125}}
+{'17dum3201': {'test at': 'Tue May 29 16:28:34 2018', 'login page load time': 9.286003112792969, 'home page load time': 4.246163845062256}}
+{'17dum3209': {'test at': 'Tue May 29 16:28:33 2018', 'login page load time': 8.980647325515747, 'home page load time': 5.9151692390441895}}
+{'17dum3204': {'test at': 'Tue May 29 16:28:34 2018', 'login page load time': 11.953983068466187, 'home page load time': 3.2636308670043945}}
+{'17dum3202': {'test at': 'Tue May 29 16:28:32 2018', 'login page load time': 14.092986106872559, 'home page load time': 3.9550228118896484}}
+{'17dum3207': {'test at': 'Tue May 29 16:28:34 2018', 'login page load time': 12.748302936553955, 'home page load time': 4.137140989303589}}
+{'17dum3203': {'test at': 'Tue May 29 16:28:34 2018', 'login page load time': 12.973406076431274, 'home page load time': 4.202101469039917}}
+{'17dum3208': {'test at': 'Tue May 29 16:28:32 2018', 'login page load time': 15.41486382484436, 'home page load time': 4.293450832366943}}
+{'17dum3210': {'test at': 'Tue May 29 16:28:34 2018', 'login page load time': 9.505348205566406, 'home page load time': 11.202759027481079}}
+#
+{'17dum3421': {'test at': 'Tue May 29 16:42:42 2018', 'home page load time': 2.9769906997680664, 'login page load time': 6.920595645904541}}
+{'17dum3426': {'test at': 'Tue May 29 16:42:41 2018', 'home page load time': 6.086850881576538, 'login page load time': 7.062172174453735}}
+{'17dum3427': {'test at': 'Tue May 29 16:42:43 2018', 'home page load time': 5.02292275428772, 'login page load time': 8.651320695877075}}
+{'17dum3425': {'test at': 'Tue May 29 16:42:43 2018', 'home page load time': 5.007777214050293, 'login page load time': 8.9536714553833}}
+{'17dum3424': {'test at': 'Tue May 29 16:42:42 2018', 'home page load time': 3.963939666748047, 'login page load time': 10.34913158416748}}
+{'17dum3423': {'test at': 'Tue May 29 16:42:43 2018', 'home page load time': 3.907240152359009, 'login page load time': 10.06225323677063}}
+{'17dum3428': {'test at': 'Tue May 29 16:42:43 2018', 'home page load time': 4.689474105834961, 'login page load time': 10.751710414886475}}
+{'17dum3422': {'test at': 'Tue May 29 16:42:42 2018', 'home page load time': 5.250761985778809, 'login page load time': 11.569054365158081}}
+{'17dum3429': {'test at': 'Tue May 29 16:42:43 2018', 'home page load time': 4.502255916595459, 'login page load time': 12.980626821517944}}
+{'17dum3430': {'test at': 'Tue May 29 16:42:42 2018', 'home page load time': 3.4908030033111572, 'login page load time': 14.83005142211914}}
+#
+{'17dum2326': {'login page load time': 7.070681810379028, 'home page load time': 3.214808225631714, 'test at': 'Tue May 29 06:59:42 2018'}}
+{'17dum2325': {'login page load time': 7.940479516983032, 'home page load time': 2.7964324951171875, 'test at': 'Tue May 29 06:59:43 2018'}}
+{'17dum2323': {'login page load time': 9.325172901153564, 'home page load time': 2.7091033458709717, 'test at': 'Tue May 29 06:59:44 2018'}}
+{'17dum2329': {'login page load time': 9.973106622695923, 'home page load time': 3.290635824203491, 'test at': 'Tue May 29 06:59:44 2018'}}
+{'17dum2321': {'login page load time': 9.473229169845581, 'home page load time': 5.7299675941467285, 'test at': 'Tue May 29 06:59:43 2018'}}
+{'17dum2324': {'login page load time': 10.44615364074707, 'home page load time': 3.7837629318237305, 'test at': 'Tue May 29 06:59:44 2018'}}
+{'17dum2322': {'login page load time': 9.345293045043945, 'home page load time': 4.8829076290130615, 'test at': 'Tue May 29 06:59:44 2018'}}
+{'17dum2328': {'login page load time': 10.964678049087524, 'home page load time': 3.809215545654297, 'test at': 'Tue May 29 06:59:44 2018'}}
+{'17dum2327': {'login page load time': 13.209998846054077, 'home page load time': 3.398780584335327, 'test at': 'Tue May 29 06:59:43 2018'}}
+{'17dum2330': {'login page load time': 14.08578896522522, 'home page load time': 4.99506139755249, 'test at': 'Tue May 29 06:59:44 2018'}}
+#
+{'17dum3261': {'login page load time': 6.229486465454102, 'test at': 'Tue May 29 16:39:53 2018', 'home page load time': 1.9666950702667236}}
+{'17dum3257': {'login page load time': 8.192175388336182, 'test at': 'Tue May 29 16:39:52 2018', 'home page load time': 3.850090503692627}}
+{'17dum3264': {'login page load time': 7.5659871101379395, 'test at': 'Tue May 29 16:39:54 2018', 'home page load time': 4.186519145965576}}
+{'17dum3260': {'login page load time': 8.22663402557373, 'test at': 'Tue May 29 16:39:53 2018', 'home page load time': 4.9851601123809814}}
+{'17dum3259': {'login page load time': 11.569057941436768, 'test at': 'Tue May 29 16:39:53 2018', 'home page load time': 3.4723567962646484}}
+{'17dum3263': {'login page load time': 8.684875726699829, 'test at': 'Tue May 29 16:39:53 2018', 'home page load time': 5.46502947807312}}
+{'17dum3256': {'login page load time': 10.10658860206604, 'test at': 'Tue May 29 16:39:52 2018', 'home page load time': 5.3879616260528564}}
+{'17dum3265': {'login page load time': 7.5334789752960205, 'test at': 'Tue May 29 16:39:53 2018', 'home page load time': 11.623115539550781}}
+{'17dum3258': {'login page load time': 11.389163970947266, 'test at': 'Tue May 29 16:39:53 2018', 'home page load time': 7.691564083099365}}
+{'17dum3262': {'login page load time': 15.184993028640747, 'test at': 'Tue May 29 16:39:51 2018', 'home page load time': 7.131527900695801}}
+#
+#
+#
+#
+{'17dum2393': {'test at': 'Tue May 29 05:59:57 2018', 'login page load time': 5.147258043289185, 'home page load time': 1.7443335056304932}}
+{'17dum2397': {'test at': 'Tue May 29 05:59:57 2018', 'login page load time': 5.750957250595093, 'home page load time': 2.2284278869628906}}
+{'17dum2389': {'test at': 'Tue May 29 05:59:57 2018', 'login page load time': 6.815911531448364, 'home page load time': 1.7621607780456543}}
+{'17dum2400': {'test at': 'Tue May 29 05:59:58 2018', 'login page load time': 5.4179527759552, 'home page load time': 2.7976300716400146}}
+{'17dum2379': {'test at': 'Tue May 29 05:59:58 2018', 'login page load time': 5.531041145324707, 'home page load time': 2.4641988277435303}}
+{'17dum2401': {'test at': 'Tue May 29 05:59:58 2018', 'login page load time': 5.772076368331909, 'home page load time': 2.48258113861084}}
+{'17dum2378': {'test at': 'Tue May 29 05:59:57 2018', 'login page load time': 7.4673542976379395, 'home page load time': 2.1814591884613037}}
+{'17dum2387': {'test at': 'Tue May 29 05:59:53 2018', 'login page load time': 12.668628692626953, 'home page load time': 2.162984609603882}}
+{'17dum2390': {'test at': 'Tue May 29 05:59:58 2018', 'login page load time': 9.356157541275024, 'home page load time': 1.7366223335266113}}
+{'17dum2395': {'test at': 'Tue May 29 05:59:57 2018', 'login page load time': 9.876245975494385, 'home page load time': 2.253878355026245}}
+#
+{'17dum2377': {'test at': 'Tue May 29 07:01:13 2018', 'login page load time': 8.148308277130127, 'home page load time': 2.34679913520813}}
+{'17dum2376': {'test at': 'Tue May 29 07:01:13 2018', 'login page load time': 6.726978063583374, 'home page load time': 4.3186399936676025}}
+{'17dum2382': {'test at': 'Tue May 29 07:01:11 2018', 'login page load time': 11.375927686691284, 'home page load time': 3.764953851699829}}
+{'17dum2383': {'test at': 'Tue May 29 07:01:14 2018', 'login page load time': 10.291368246078491, 'home page load time': 3.957972526550293}}
+{'17dum2381': {'test at': 'Tue May 29 07:01:14 2018', 'login page load time': 11.153640508651733, 'home page load time': 4.189415216445923}}
+{'17dum2384': {'test at': 'Tue May 29 07:01:14 2018', 'login page load time': 11.214210033416748, 'home page load time': 4.3006110191345215}}
+{'17dum2380': {'test at': 'Tue May 29 07:01:11 2018', 'login page load time': 14.899560451507568, 'home page load time': 3.823671579360962}}
+{'17dum2378': {'test at': 'Tue May 29 07:01:14 2018', 'login page load time': 10.246848583221436, 'home page load time': 6.005269527435303}}
+{'17dum2379': {'test at': 'Tue May 29 07:01:14 2018', 'login page load time': 11.562547206878662, 'home page load time': 4.455372095108032}}
+{'17dum2385': {'test at': 'Tue May 29 07:01:14 2018', 'login page load time': 12.664222717285156, 'home page load time': 6.033907651901245}}
+#
+{'17dum3311': {'home page load time': 1.9434418678283691, 'login page load time': 6.7298102378845215, 'test at': 'Tue May 29 16:42:03 2018'}}
+{'17dum3319': {'home page load time': 4.455029487609863, 'login page load time': 6.740320682525635, 'test at': 'Tue May 29 16:42:03 2018'}}
+{'17dum3315': {'home page load time': 4.2675697803497314, 'login page load time': 6.159123420715332, 'test at': 'Tue May 29 16:42:04 2018'}}
+{'17dum3314': {'home page load time': 4.676055192947388, 'login page load time': 6.261019945144653, 'test at': 'Tue May 29 16:42:04 2018'}}
+{'17dum3316': {'home page load time': 3.881032943725586, 'login page load time': 10.03110146522522, 'test at': 'Tue May 29 16:42:03 2018'}}
+{'17dum3317': {'home page load time': 4.3032238483428955, 'login page load time': 10.511263370513916, 'test at': 'Tue May 29 16:42:04 2018'}}
+{'17dum3318': {'home page load time': 5.086769104003906, 'login page load time': 10.88447093963623, 'test at': 'Tue May 29 16:42:04 2018'}}
+{'17dum3320': {'home page load time': 4.342453241348267, 'login page load time': 14.888909578323364, 'test at': 'Tue May 29 16:42:02 2018'}}
+{'17dum3312': {'home page load time': 5.340837240219116, 'login page load time': 10.906167984008789, 'test at': 'Tue May 29 16:42:04 2018'}}
+{'17dum3313': {'home page load time': 7.624354362487793, 'login page load time': 9.427955389022827, 'test at': 'Tue May 29 16:42:04 2018'}}
+#
+{'17dum1661': {'test at': 'Tue May 29 07:00:27 2018', 'login page load time': 6.706529855728149, 'home page load time': 2.117748975753784}}
+{'17dum1669': {'test at': 'Tue May 29 07:00:28 2018', 'login page load time': 7.7511913776397705, 'home page load time': 4.536068677902222}}
+{'17dum1662': {'test at': 'Tue May 29 07:00:29 2018', 'login page load time': 8.322229623794556, 'home page load time': 3.431220293045044}}
+{'17dum1670': {'test at': 'Tue May 29 07:00:28 2018', 'login page load time': 9.30033826828003, 'home page load time': 3.761115550994873}}
+{'17dum1667': {'test at': 'Tue May 29 07:00:27 2018', 'login page load time': 9.508397579193115, 'home page load time': 4.987270832061768}}
+{'17dum1665': {'test at': 'Tue May 29 07:00:29 2018', 'login page load time': 9.338819026947021, 'home page load time': 3.704078197479248}}
+{'17dum1664': {'test at': 'Tue May 29 07:00:29 2018', 'login page load time': 10.27064847946167, 'home page load time': 4.024908781051636}}
+{'17dum1663': {'test at': 'Tue May 29 07:00:29 2018', 'login page load time': 8.389947175979614, 'home page load time': 4.96831488609314}}
+{'17dum1668': {'test at': 'Tue May 29 07:00:30 2018', 'login page load time': 10.578598260879517, 'home page load time': 7.0576331615448}}
+{'17dum1666': {'test at': 'Tue May 29 07:00:29 2018', 'login page load time': 8.212691307067871, 'home page load time': 10.238141536712646}}
+#
+{'17dum2438': {'test at': 'Tue May 29 16:33:28 2018', 'login page load time': 6.0972044467926025, 'home page load time': 3.976684808731079}}
+{'17dum2437': {'test at': 'Tue May 29 16:33:28 2018', 'login page load time': 10.181594133377075, 'home page load time': 2.7483479976654053}}
+{'17dum2432': {'test at': 'Tue May 29 16:33:27 2018', 'login page load time': 10.232450723648071, 'home page load time': 4.150266408920288}}
+{'17dum2439': {'test at': 'Tue May 29 16:33:29 2018', 'login page load time': 10.924659729003906, 'home page load time': 5.188255310058594}}
+{'17dum2436': {'test at': 'Tue May 29 16:33:28 2018', 'login page load time': 12.452051162719727, 'home page load time': 4.437763929367065}}
+{'17dum2433': {'test at': 'Tue May 29 16:33:27 2018', 'login page load time': 12.61891484260559, 'home page load time': 6.979061841964722}}
+{'17dum2435': {'test at': 'Tue May 29 16:33:28 2018', 'login page load time': 12.767565965652466, 'home page load time': 5.233825922012329}}
+{'17dum2431': {'test at': 'Tue May 29 16:33:29 2018', 'login page load time': 14.587985754013062, 'home page load time': 4.019224166870117}}
+{'17dum2434': {'test at': 'Tue May 29 16:33:31 2018', 'login page load time': 10.836601734161377, 'home page load time': 5.190077304840088}}
+{'17dum2440': {'test at': 'Tue May 29 16:33:29 2018', 'login page load time': 8.918286561965942, 'home page load time': 10.764969825744629}}
+#
+{'17dum3752': {'test at': 'Tue May 29 16:29:37 2018', 'login page load time': 5.455052137374878, 'home page load time': 3.187849283218384}}
+{'17dum3755': {'test at': 'Tue May 29 16:29:35 2018', 'login page load time': 6.98060941696167, 'home page load time': 4.28387975692749}}
+{'17dum3756': {'test at': 'Tue May 29 16:29:36 2018', 'login page load time': 6.366554021835327, 'home page load time': 5.111676216125488}}
+{'17dum3760': {'test at': 'Tue May 29 16:29:39 2018', 'login page load time': 6.7279393672943115, 'home page load time': 3.4607114791870117}}
+{'17dum3753': {'test at': 'Tue May 29 16:29:36 2018', 'login page load time': 7.196578502655029, 'home page load time': 7.087203741073608}}
+{'17dum3757': {'test at': 'Tue May 29 16:29:35 2018', 'login page load time': 13.241419553756714, 'home page load time': 4.185614109039307}}
+{'17dum3754': {'test at': 'Tue May 29 16:29:37 2018', 'login page load time': 11.08994722366333, 'home page load time': 4.498730659484863}}
+{'17dum3758': {'test at': 'Tue May 29 16:29:36 2018', 'login page load time': 11.245060682296753, 'home page load time': 4.768524885177612}}
+{'17dum3751': {'test at': 'Tue May 29 16:29:38 2018', 'login page load time': 5.7544050216674805, 'home page load time': 12.053749084472656}}
+{'17dum3759': {'test at': 'Tue May 29 16:29:37 2018', 'login page load time': 9.639649152755737, 'home page load time': 9.540119409561157}}
