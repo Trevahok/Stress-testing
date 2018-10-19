@@ -1,5 +1,5 @@
-# web-testing
-This script tests a website's ability to accomodate the number of people - stress testing, by automating the users actions. 
+# Stress testing for VPROPEL
+  This was made for stress testing VPROPEL , VIT website while interning at it. This script tests a website's ability to accomodate the number of people - stress testing, by automating the users actions. 
 It can be run on a Selenium grid running on different docker containers. 
 # Setting Up:
 ###  Using the commands given in the commands list file:
@@ -20,7 +20,7 @@ python3 multi_user_node_interaction.py
 - Enter the number of users you would like to simulate:
 
 # plot.py
-- It connects to the file specified and removes all the entries that said "Could not connecto host" errors 
+- It connects to the file specified and removes all the entries that said "Could not connect to host" errors 
 - Plots the files with pyplot and saves the plot as .png file of the same file name 
 
 ### Usage:
